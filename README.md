@@ -7,6 +7,6 @@ Criação de games web multiplayer com Javascript, Canvas e Socket.io
 # Como usar:
 
 - Clonar projeto em seu computador.
-- Em seu terminal execute o comando 'npm install'
+- Em seu terminal, na pasta do projeto, execute o comando 'npm install'
 - Executar o comando 'node server.js'
-- A aplicação fica online na porta 3000.
+- Acesse localhost:3000 em seu navegador.
