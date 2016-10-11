@@ -1,0 +1,46 @@
+body {
+  background: #eee;
+  margin: 0px;
+  padding: 0px;
+}
+
+canvas {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+}
+
+.info-bar {
+  position: fixed;
+  bottom: 0px;
+  height: 60px;
+  width: 100%;
+  z-index: 99999;
+  background-color: #333;
+}
+
+.info-bar ul {
+  padding: 0px;
+}
+
+.info-bar ul li { 
+  float: left;
+  margin-left: 10px;
+  list-style: none;
+}
+
+.info-bar ul li .player-color {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+
+.info-bar ul li p {
+  float: left;
+  color: #fff;
+  margin: 0px;
+  padding: 6px;
+}
